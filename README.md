@@ -1,5 +1,5 @@
 # SuperRepository
-A super repository for Ubuntu, which contains a collection of packages, tools and repositories from official sources, in one place.
+Super repository is a bash script , which contains a collection of packages, tools and repositories from official sources, in one place.
 - compatible for Ubuntu 18.04
 
 # Contents of the script
