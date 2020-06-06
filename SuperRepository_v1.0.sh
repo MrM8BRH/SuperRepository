@@ -391,7 +391,7 @@ echo -e "$LYELLOW
 read -p "[!] Your choice: " choice
 case $choice in
 
-0) apt install libgconf-2-4 libappindicator1 ; sleep 0..2 ; snap install discord ; sleep 1.4 ; clear ; Header ; Snap_list ;;
+0) apt install libgconf-2-4 libappindicator1 ; sleep 0.2 ; snap install discord ; sleep 1.4 ; clear ; Header ; Snap_list ;;
 1) snap install zoom-client ; sleep 1.4 ; clear ;Header ; Snap_list ;;
 back) clear ; Header ; Install_list ;;
 *) echo "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Snap_list ;;
