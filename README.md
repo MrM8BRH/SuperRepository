@@ -12,7 +12,7 @@ Super repository is a bash script , which contains a collection of packages, too
     - Programming Languages
     - Browsers
     - Security Tools
-    - Editors Text & IDE
+    - Text editors & IDE
     - Multimedia
     - Extras
   - snap packages
