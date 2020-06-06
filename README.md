@@ -2,6 +2,12 @@
 Super repository is a bash script , which contains a collection of packages, tools and repositories from official sources, in one place.
 - compatible for Ubuntu 18.04
 
+# How to run the script
+
+> sudo chmod +x SuperRepository_v1.0.sh .
+
+> sudo ./SuperRepository_v1.0.sh
+
 # Contents of the script
 
 0. Add Repository
