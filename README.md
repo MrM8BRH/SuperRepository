@@ -4,7 +4,7 @@ Super repository is a bash script , which contains a collection of packages, too
 
 # How to run the script
 
-> sudo chmod +x SuperRepository_v1.0.sh .
+> sudo chmod +x SuperRepository_v1.0.sh
 
 > sudo ./SuperRepository_v1.0.sh
 
