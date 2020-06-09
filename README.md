@@ -9,7 +9,7 @@ sudo sh SuperRepository_v1.1.sh
 ```
 ## Contents of the script
 - Some useful repositories
-- Packages and tools , from :
+- Packages , tools and frameworks , from :
   1. Advanced Package Tool __(apt)__
   1. Snap Packages __(snap)__
   1. Python package installer __(pip3)__
