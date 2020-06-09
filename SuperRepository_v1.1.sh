@@ -402,28 +402,29 @@ esac
 Pip_list () {
 echo "$LRED [+] Select the package: " 
 echo "$LYELLOW
-		[0] Tensorflow
-		[1] Keras
-		[2] Opencv-python
-		[3] Imutils
-		[4] Numpy
-		[5] Matplotlib
-		[6] Pytesseract
-		[7] Python-docx
-		[8] Docx2txt\n\n
+		[0] Jupyter Notebook
+		[1] Tensorflow
+		[2] Keras
+		[3] Opencv-python
+		[4] Imutils
+		[5] Numpy
+		[6] Matplotlib
+		[7] Pytesseract
+		[8] Python-docx
+		[9] Docx2txt\n\n
 		[b] back\n$Color_Off"
 read -p "[!] Your choice: " choice
 case $choice in
-
-0) pip install tensorflow ; sleep 1.4 ; clear ; Header ; Pip_list ;;
-1) pip install Keras ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-2) pip install opencv-python ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-3) pip install imutils ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-4) pip install numpy ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-5) pip install matplotlib ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-6) pip install pytesseract ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-7) pip install python-docx ; sleep 1.4 ; clear ;Header ; Pip_list ;;
-8) pip install docx2txt ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+0) pip install notebook ; sleep 1.4 ; clear ; Header ; Pip_list ;;
+1) pip install tensorflow ; sleep 1.4 ; clear ; Header ; Pip_list ;;
+2) pip install Keras ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+3) pip install opencv-python ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+4) pip install imutils ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+5) pip install numpy ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+6) pip install matplotlib ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+7) pip install pytesseract ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+8) pip install python-docx ; sleep 1.4 ; clear ;Header ; Pip_list ;;
+9) pip install docx2txt ; sleep 1.4 ; clear ;Header ; Pip_list ;;
 b) clear ; Header ; Install_list ;;
 *) echo "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Pip_list ;;
 esac
