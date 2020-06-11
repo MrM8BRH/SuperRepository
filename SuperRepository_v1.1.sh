@@ -140,7 +140,7 @@ esac
 Primary_list () {
 echo "$LRED [+] Select the package: "
 echo "$LYELLOW
-		[0]  All Packages\n
+		[0]  (1-15)\n
 		[1]  git		[2]  wget
 		[3]  curl		[4]  snap $LRED(Snap Packages)$LYELLOW
 		[5]  gufw		[6]  htop
@@ -150,11 +150,12 @@ echo "$LYELLOW
 		[11] build-essential
 		[12] apt-transport-https
 		[13] rar + unrar + engrampa
-		[14] software properties common\n\n
+		[14] software properties common
+		[15] Kernel Headers\n\n
 		[b]  back\n$Color_Off"
 read -p "[!] Your choice: " choice
 case $choice in
-0) apt install -y git wget curl snap snapd gufw htop dpkg net-tools python3-pip build-essential apt-transport-https rar unrar engrampa software-properties-common npm ; npm install -g npm@next ; sleep 1.4 ; clear ; Header ; Apt_list ;;
+0) apt install -y git wget curl snap snapd gufw htop dpkg net-tools python3-pip build-essential apt-transport-https rar unrar engrampa software-properties-common npm linux-headers-$(uname -r) ; npm install -g npm@next ; sleep 1.4 ; clear ; Header ; Apt_list ;;
 1) apt install -y git ; sleep 1.4 ; clear ;Header ; Primary_list ;;
 2) apt install -y wget ; sleep 1.4 ; clear ; Header ; Primary_list ;;
 3) apt install -y curl ; sleep 1.4 ; clear ; Header ; Primary_list ;;
@@ -169,6 +170,7 @@ case $choice in
 12) apt install -y apt-transport-https; sleep 1.4 ; clear ; Header ; Primary_list ;;
 13) apt install -y rar unrar engrampa; sleep 1.4 ; clear ; Header ; Primary_list ;;
 14) apt install -y software-properties-common; sleep 1.4 ; clear ; Header ; Primary_list ;;
+15) apt install -y linux-headers-$(uname -r); sleep 1.4 ; clear ; Header ; Primary_list ;;
 b) clear ; Header ; Apt_list ;;
 *) echo "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Primary_list ;;
 esac
