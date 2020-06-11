@@ -351,16 +351,17 @@ esac
 Extras () {
 echo "$LRED [+] Select the package: " 
 echo "$LYELLOW
-		[0] (1-7)\n
+		[0] (1-5)\n
 		[1] Putty
 		[2] Openvpn
 		[3] Bleachbit
 		[4] gnome-tweak-tool
 		[5] gnome-software-plugin-flatpak
-
+		-------
+		[6] VMware Guest Tools
 	Chatting
-		[8] Signal		$LRED(need to add repository)$LYELLOW
-		[9] Telegram
+		[7] Signal		$LRED(need to add repository)$LYELLOW
+		[8] Telegram
 		\n\n
 		[b] back\n$Color_Off"
 read -p "[!] Your choice: " choice
@@ -371,9 +372,9 @@ case $choice in
 3) apt install -y bleachbit ; sleep 1.4 ; clear ;Header ; Extras ;;
 4) apt install -y gnome-tweak-tool ; sleep 1.4 ; clear ;Header ; Extras ;;
 5) apt install -y gnome-software-plugin-flatpak ; sleep 1.4 ; clear ;Header ; Extras ;;
-
-8) apt install -y signal-desktop ; sleep 1.4 ; clear ;Header ; Extras ;;
-9) apt install -y telegram-desktop ; sleep 1.4 ; clear ;Header ; Extras ;;
+6) apt install -y open-vm-tools ; sleep 1.4 ; clear ;Header ; Extras ;;
+7) apt install -y signal-desktop ; sleep 1.4 ; clear ;Header ; Extras ;;
+8) apt install -y telegram-desktop ; sleep 1.4 ; clear ;Header ; Extras ;;
 b) clear ; Header ; Apt_list ;;
 *) echo "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Extras ;;
 esac
