@@ -4,7 +4,6 @@
 - [x] Support for more distributions (Debian, Ubuntu, Mint, Kali)
 ## How to run the script
 ```
-sudo chmod +x SuperRepository_v1.1.sh
 sudo sh SuperRepository_v1.1.sh
 ```
 ## Contents of the script
