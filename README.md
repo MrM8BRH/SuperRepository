@@ -19,4 +19,4 @@ sudo ./SuperRepository_v1.3.sh
   1. Node Package Manager __(npm)__
 - Update repositories
 ### Screenshot
-![Screenshot from 2020-06-07 22-48-37](https://user-images.githubusercontent.com/34133187/83978570-2516a280-a911-11ea-8e37-44bf35f38e7d.png)
+![Screenshot from 2021-01-24 11-24-25](https://user-images.githubusercontent.com/34133187/105626180-ec432380-5e36-11eb-9c0d-107a4cf69f86.png)
