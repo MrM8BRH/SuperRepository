@@ -504,7 +504,7 @@ case $choice in
 
 0) apt -y update ; sleep 1.4 ; apt -y full-upgrade ; sleep 1.4 ; clear ; Header ; Upd_Upg_list ;;
 1) snap refresh ; sleep 1.4 ; clear ; Header ; Upd_Upg_list  ;;
-2) pip3 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U ; sleep 1.4 ; clear ; Header ; Upd_Upg_list ;;
+2) sudo -H pip3 install --upgrade pip; pip3 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U ; sleep 1.4 ; clear ; Header ; Upd_Upg_list ;;
 3) npm update -g ; sleep 1.4 ; clear ; Header ; Upd_Upg_list ;;
 b) clear ; Header ; main_menu ;;
 *) echo -e "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Upd_Upg_list ;;
