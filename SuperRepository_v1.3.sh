@@ -320,8 +320,8 @@ o4) apt install -y gnupg ; sleep 1.4 ; clear ; Header ; Sec_tools ;;
 o5) apt install -y edb-debugger ; sleep 1.4 ; clear ; Header ; Sec_tools ;;
 o6) apt install -y curl apt-transport-https; cd /tmp/
 	curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-	chmod 755 msfinstall && \
-	./msfinstall
+  	chmod 755 msfinstall && \
+  	./msfinstall
 	sleep 1.4 ; clear ; Header ; Sec_tools ;;
 b) clear ; Header ; Apt_list ;;
 *) echo "'$choice': is not a valid option"; sleep 2 ; clear ; Header ; Sec_tools ;;
