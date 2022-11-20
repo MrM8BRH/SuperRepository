@@ -34,7 +34,7 @@ echo -e "[+] Choose: \n
 		[$RED c2 $Color_Off] Hydra \t\t [$RED c3 $Color_Off] Cewl\n
 		[$RED c4 $Color_Off] Crunch \t\t [$RED c5 $Color_Off] Rarcrack & Fcrackzip \n
 	OSINT:
-		[$RED o  $Color_Off] (o0-o7)\n
+		[$RED o  $Color_Off] (o0-o8)\n
 		[$RED o0 $Color_Off] Spiderfoot \t [$RED o1 $Color_Off] Maltego \n
 		[$RED o2 $Color_Off] Recon-ng \t [$RED o3 $Color_Off] Whois \n 
 		[$RED o4 $Color_Off] Cloud-enum \t [$RED o5 $Color_Off] Email2PhoneNumber \n
