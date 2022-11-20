@@ -1,20 +1,6 @@
-## The script contents include:
-- Some excellent repositories
-- Packages, tools, and frameworks, sourced from: 
-  1. Advanced Package Tool __(apt)__
-  1. Snap Packages __(snap)__
-  1. Python package installer __(pip3)__
-  1. Node Package Manager __(npm)__
-- Update repositories
+## V1.6
 
-## There are two ways to run the script:
-```
-#1
-sudo bash SuperRepository_v1.3.sh
-
-#2
-chmod +x SuperRepository_v1.3.sh
-sudo ./SuperRepository_v1.3.sh
-```
-### Screenshot
-![Screenshot from 2021-01-24 11-24-25](https://user-images.githubusercontent.com/34133187/105626180-ec432380-5e36-11eb-9c0d-107a4cf69f86.png)
+### Screenshots
+![Screenshot_1](https://user-images.githubusercontent.com/34133187/202891360-a8a87883-880b-4de0-a4a1-008406f5b6b2.png)
+![image](https://user-images.githubusercontent.com/34133187/202891486-8c161712-d11a-4689-9f3f-74705a2c1bbe.png)
+![Screenshot_2](https://user-images.githubusercontent.com/34133187/202891436-c2abb1ea-a4e3-415b-bcb2-289eec1f4f22.png)
