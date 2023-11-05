@@ -4,8 +4,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/forks)
-[![GitHub forks](https://img.shields.io/github/watchers/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/watchers)
-[![GitHub forks](https://img.shields.io/github/license/mrm8brh/SuperRepository)](https://github.com/MrM8BRH/SuperRepository/blob/master/LICENSE)
+[![GitHub watchers](https://img.shields.io/github/watchers/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/watchers)
+[![GitHub license](https://img.shields.io/github/license/mrm8brh/SuperRepository)](https://github.com/MrM8BRH/SuperRepository/blob/master/LICENSE)
 [![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
   
 </div>
