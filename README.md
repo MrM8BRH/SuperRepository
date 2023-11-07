@@ -1,12 +1,16 @@
 <p align="center">اللهم صل على محمد وعلى آل محمد</p>
 <div id="header" align="center">
   
-[![GitHub stars](https://img.shields.io/github/stars/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/issues)
-[![GitHub forks](https://img.shields.io/github/forks/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/forks)
-[![GitHub watchers](https://img.shields.io/github/watchers/mrm8brh/SuperRepository)](https://github.com/mrm8brh/SuperRepository/watchers)
-[![GitHub license](https://img.shields.io/github/license/mrm8brh/SuperRepository)](https://github.com/MrM8BRH/SuperRepository/blob/master/LICENSE)
-[![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
+<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+<img src="https://img.shields.io/github/stars/mrm8brh/SuperRepository?style=social">
+<img src="https://img.shields.io/github/forks/mrm8brh/SuperRepository?style=social">
+<img src="https://img.shields.io/github/repo-size/mrm8brh/SuperRepository?style=social">
+<img src="https://img.shields.io/github/license/mrm8brh/SuperRepository?style=social">
+<img src="https://img.shields.io/github/issues/mrm8brh/SuperRepository?style=social">
+<img src="https://img.shields.io/github/watchers/mrm8brh/SuperRepository?style=social">
+<a href="https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md">
+   <img src="https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg">
+</a> 
   
 </div>
 
